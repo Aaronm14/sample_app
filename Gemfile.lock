@@ -34,6 +34,7 @@ GEM
       tzinfo (~> 0.3.33)
     arel (4.0.0)
     atomic (1.1.9)
+    bcrypt-ruby (3.0.1)
     bootstrap-sass (2.3.0.1)
       sass (~> 3.2)
     builder (3.1.4)
@@ -82,13 +83,12 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.0)
     json_pure (1.8.0)
-    listen (1.1.0)
+    listen (1.1.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     lumberjack (1.0.3)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     method_source (0.8.1)
@@ -154,7 +154,7 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
-    slop (3.4.4)
+    slop (3.4.5)
     spork (1.0.0rc3)
     sprockets (2.9.3)
       hike (~> 1.2)
@@ -186,6 +186,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.3.0.1)
   capybara (= 2.1.0.beta1)
   childprocess (= 0.3.6)
