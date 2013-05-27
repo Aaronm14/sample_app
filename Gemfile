@@ -20,7 +20,7 @@ group :test do
 
   gem 'rb-fsevent', '0.9.3', :require => false
   gem 'growl', '1.0.3'
-
+  gem 'factory_girl_rails', '4.2.0'
   # Uncomment these lines on Linux.
   # gem 'rb-inotify', '0.9.0'
   # gem 'libnotify', '0.8.0'
