@@ -1,0 +1,40 @@
+...FFFF
+
+Failures:
+
+  1) Authentication with valid information 
+     Failure/Error: fill_in "Email",    with: user.email.upcase
+     Capybara::ElementNotFound:
+       Unable to find field "Email"
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  2) Authentication with valid information 
+     Failure/Error: fill_in "Email",    with: user.email.upcase
+     Capybara::ElementNotFound:
+       Unable to find field "Email"
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  3) Authentication with valid information 
+     Failure/Error: fill_in "Email",    with: user.email.upcase
+     Capybara::ElementNotFound:
+       Unable to find field "Email"
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  4) Authentication with valid information 
+     Failure/Error: fill_in "Email",    with: user.email.upcase
+     Capybara::ElementNotFound:
+       Unable to find field "Email"
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+Finished in 1.35 seconds
+7 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/requests/authentication_pages_spec.rb:32 # Authentication with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:33 # Authentication with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:34 # Authentication with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:35 # Authentication with valid information 
+
+Randomized with seed 53236
+
